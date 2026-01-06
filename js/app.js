@@ -27,6 +27,9 @@ class App {
 
     // Filter menu by permissions
     this.filterMenuByPermissions();
+
+    // Default to dashboard
+    this.loadModule('dashboard');
   }
 
   loadUserInfo() {
